@@ -1,0 +1,107 @@
+{
+  "schema": {
+    "brands": {
+      "unique": "name",
+      "id": "",
+      "name": "",
+      "img": ""
+    },
+    "products": {
+      "unique": "name",
+      "id": "",
+      "name": "",
+      "price": "",
+      "img": "",
+      "qty": "",
+      "description": "",
+      "brand": ""
+    },
+    "users": {
+      "unique": "username",
+      "id": "",
+      "username": "",
+      "password": "",
+      "cart": "",
+      "orders": ""
+    }
+  },
+  "brands": [
+    {
+      "id": "b5c4d1ac-d77d-4b6b-abf2-67b1ea57d524",
+      "name": "Zara",
+      "img": "/static/assets/zara_logo.png"
+    },
+    {
+      "id": "c4250416-4da3-4995-9631-e8b00f6ac2bb",
+      "name": "Chanel",
+      "img": "/static/assets/chanel_logo.png"
+    },
+    {
+      "id": "bb169205-290c-4db3-82d0-6473e8e60059",
+      "name": "Dior",
+      "img": "/static/assets/dior_logo.png"
+    },
+    {
+      "id": "c89a73d4-bd00-4ec1-89c6-ab5d4bb263c3",
+      "name": "Prada",
+      "img": "/static/assets/prada_logo.png"
+    }
+  ],
+  "products": [
+    {
+      "id": "7852b971-bd9c-4a5f-95e8-1da1f6d75c67",
+      "name": "Grained Shiny Calfskin & Gold-Tone Metal Lilac",
+      "price": "5000",
+      "img": "/static/assets/products/image 6.png",
+      "qty": "100",
+      "description": "Dimensions: 6.4 × 6.8 × 3.9 in ( cm )",
+      "brand": "Chanel"
+    },
+    {
+      "id": "ac49a1a6-f2cf-4a6e-b6fd-32235814b07c",
+      "name": "Cotton, Calfskin & Silver-Tone Metal Black & White - Large Shopping Bag",
+      "price": "4600",
+      "img": "/static/assets/products/image 8.png",
+      "qty": "100",
+      "description": "Dimensions: 11.7 × 19.5 × 8.6 in ( cm )",
+      "brand": "Chanel"
+    },
+    {
+      "id": "988a0a68-de6b-4607-9e2a-4107b47b202b",
+      "name": "Felt Texture Coat",
+      "price": "60.8",
+      "img": "/static/assets/products/Image.png",
+      "qty": "100",
+      "description": "Open coat with a lapel collar and long sleeves. One of the best-selling products in the world, this innovative coat by Zara is made of 100% felt, which has a wonderful texture. It is a timeless, versatile piece that is perfect for all seasons.",
+      "brand": "Zara"
+    },
+    {
+      "id": "05ef87da-0a78-48bf-bc5f-711ca8bee64b",
+      "name": "Faux Leather Jacket",
+      "price": "48.8",
+      "img": "/static/assets/products/Image-3.png",
+      "qty": "100",
+      "description": "Casual jacket with quilted trim and waterfall neckline",
+      "brand": "Zara"
+    },
+    {
+      "id": "ee99deed-3231-4a2f-8e48-671019d3a908",
+      "name": "TRF Denim Dress",
+      "price": "51.8",
+      "img": "/static/assets/products/Image-2.png",
+      "qty": "100",
+      "description": "Denim dress with a shirt like design and front pockets",
+      "brand": "Zara"
+    },
+    {
+      "id": "569c0f0d-7d50-4c60-b17a-d85f45a64342",
+      "name": "Z1975 Flare Fit Jeans",
+      "price": "48.8",
+      "img": "/static/assets/products/Image-1.png",
+      "qty": "100",
+      "description": "Faded high-rise jeans featuring pockets on the front and rear patch pockets. Flared hems.",
+      "brand": "Zara"
+    }
+  ],
+  "users": []
+}
